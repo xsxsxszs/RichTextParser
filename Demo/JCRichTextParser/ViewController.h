@@ -2,7 +2,6 @@
 //  ViewController.h
 //  JCRichTextParser
 //
-//  Created by Jimmy Chan on 1/14/16.
 //  Copyright © 2016 Jimmy. All rights reserved.
 //
 

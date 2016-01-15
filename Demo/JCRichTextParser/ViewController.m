@@ -2,7 +2,6 @@
 //  ViewController.m
 //  JCRichTextParser
 //
-//  Created by Jimmy Chan on 1/14/16.
 //  Copyright © 2016 Jimmy. All rights reserved.
 //
 
@@ -14,14 +13,14 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+- (UIRectEdge)edgesForExtendedLayout
+{
+    return UIRectEdgeNone;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
 }
 
 @end

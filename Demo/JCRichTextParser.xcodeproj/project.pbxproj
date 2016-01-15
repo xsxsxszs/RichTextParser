@@ -12,6 +12,7 @@
 		7708DB8D1C47A60C00A8B852 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708DB8C1C47A60C00A8B852 /* ViewController.m */; };
 		7708DB921C47A60C00A8B852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7708DB911C47A60C00A8B852 /* Assets.xcassets */; };
 		7708DB951C47A60C00A8B852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7708DB931C47A60C00A8B852 /* LaunchScreen.storyboard */; };
+		7708DBA61C48CBCA00A8B852 /* JCRichTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708DBA51C48CBCA00A8B852 /* JCRichTextParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		7708DB911C47A60C00A8B852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7708DB941C47A60C00A8B852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7708DB961C47A60C00A8B852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7708DBA41C48CBCA00A8B852 /* JCRichTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCRichTextParser.h; path = ../../JCRichTextParser/JCRichTextParser.h; sourceTree = "<group>"; };
+		7708DBA51C48CBCA00A8B852 /* JCRichTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCRichTextParser.m; path = ../../JCRichTextParser/JCRichTextParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				7708DB931C47A60C00A8B852 /* LaunchScreen.storyboard */,
 				7708DB961C47A60C00A8B852 /* Info.plist */,
 				7708DB851C47A60C00A8B852 /* Supporting Files */,
+				7708DBA41C48CBCA00A8B852 /* JCRichTextParser.h */,
+				7708DBA51C48CBCA00A8B852 /* JCRichTextParser.m */,
 			);
 			path = JCRichTextParser;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 			files = (
 				7708DB8D1C47A60C00A8B852 /* ViewController.m in Sources */,
 				7708DB8A1C47A60C00A8B852 /* AppDelegate.m in Sources */,
+				7708DBA61C48CBCA00A8B852 /* JCRichTextParser.m in Sources */,
 				7708DB871C47A60C00A8B852 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +292,7 @@
 				7708DB9B1C47A60C00A8B852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
