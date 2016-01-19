@@ -15,7 +15,7 @@
 
 @implementation JCRichTextParser
 
-+ (instancetype)defaultConvertorWithFontSize:(CGFloat)fontSize
++ (instancetype)defaultParserWithFontSize:(CGFloat)fontSize
 {
     static JCRichTextParser *_defaultParser = nil;
     static dispatch_once_t onceToken;

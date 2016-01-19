@@ -37,7 +37,7 @@
                        @"A <italic_green>italic green</italic_green> and <large_bold>large bold</large_bold> <u>underline</u> text",
                        ];
     
-    self.defaultParser = [JCRichTextParser defaultConvertorWithFontSize:17.0];
+    self.defaultParser = [JCRichTextParser defaultParserWithFontSize:17.0];
     
     JCRichTextTag *tag1 = [[JCRichTextTag alloc] initWithStartTag:@"<italic_green>" endTag:@"</italic_green>" attributes:@{NSFontAttributeName: [UIFont italicSystemFontOfSize:17.0], NSForegroundColorAttributeName: [UIColor greenColor]}];
     JCRichTextTag *tag2 = [[JCRichTextTag alloc] initWithStartTag:@"<large_bold>" endTag:@"</large_bold>" attributes:@{NSFontAttributeName: [UIFont boldSystemFontOfSize:34.0]}];

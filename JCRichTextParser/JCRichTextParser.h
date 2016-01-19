@@ -10,7 +10,7 @@
 
 @interface JCRichTextParser : NSObject
 
-+ (instancetype)defaultConvertorWithFontSize:(CGFloat)fontSize;
++ (instancetype)defaultParserWithFontSize:(CGFloat)fontSize;
 - (instancetype)initWithTags:(NSArray *)tags;
 
 /*
